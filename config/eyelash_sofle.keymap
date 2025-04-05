@@ -80,7 +80,7 @@
 &trans     &bt BT_CLR      &bt BT_CLR_ALL   &trans           &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &trans     &out OUT_USB    &out OUT_BLE     &trans           &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans     &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans          &kp LEFT_WIN     &trans           &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans     &trans          &kp LEFT_WIN     &trans           &trans        &kp LCTRL       &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
